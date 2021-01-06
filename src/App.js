@@ -1,9 +1,9 @@
 import React from 'react'
 import './App.css';
-import Counter from './components/Counter'
-import Quotes from './components/Quotes'
-import AppComponent from './components/Context/App-Component'
-import CounterReducer from './components/Reducer/CounterReducer'
+// import Counter from './components/Counter'
+// import Quotes from './components/Quotes'
+// import AppComponent from './components/Context/App-Component'
+// import CounterReducer from './components/Reducer/CounterReducer'
 import ParentCompoent from './UseCallBack/Parent'
 
 
@@ -12,9 +12,9 @@ function App() {
     <div className="App">
      
         {/* <Counter/> */}
-      <Quotes/>
+      {/* <Quotes/>
       <AppComponent/>
-      <CounterReducer/>
+      <CounterReducer/> */}
       <ParentCompoent/>
      
     </div>

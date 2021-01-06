@@ -5,7 +5,7 @@ import axios from 'axios'
 const Quotes = () => {
     const [quotes ,setQuotes] =useState([])
     useEffect(() => {
-        const data =axios.get('https://type.fit/api/quotes').then((res)=>{
+         axios.get('https://type.fit/api/quotes').then((res)=>{
          setQuotes(res.data)
         }).catch((e)=>{
          console.log(e)

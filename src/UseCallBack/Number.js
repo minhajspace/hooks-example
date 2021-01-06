@@ -1,12 +1,12 @@
 import React from 'react'
 
-const Count = (props) => {
+const Number = (props) => {
     console.log('counter compoent')
     return (
         <div>
-           <h3>{props.count}</h3>
+           <h3>{props.number}</h3>
         </div>
     )
 }
 
-export default Count
+export default React.memo(Number)
