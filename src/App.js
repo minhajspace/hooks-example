@@ -5,6 +5,7 @@ import './App.css';
 // import AppComponent from './components/Context/App-Component'
 // import CounterReducer from './components/Reducer/CounterReducer'
 import ParentCompoent from './UseCallBack/Parent'
+import PersonAge from './components/UseMemo/PersonAge'
 
 
 function App() {
@@ -15,7 +16,8 @@ function App() {
       {/* <Quotes/>
       <AppComponent/>
       <CounterReducer/> */}
-      <ParentCompoent/>
+      {/* <ParentCompoent/> */}
+      <PersonAge/>
      
     </div>
   );
