@@ -29,5 +29,4 @@ const PersonAge = () => {
         </div>
     )
 }
-
 export default PersonAge

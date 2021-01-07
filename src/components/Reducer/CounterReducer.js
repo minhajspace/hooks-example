@@ -11,11 +11,9 @@ const reducer = (state, action) => {
         default:
             return state
     }
-
 }
 
 const CounterReducer = () => {
-
     const [count, dispatch] = useReducer(reducer, initialState)
     return (
         <div style={{ height: '200px', width: '600px', border: '1px solid red', background: '#e1f5fe', margin: '20px' }}>
@@ -24,9 +22,7 @@ const CounterReducer = () => {
             <button onClick={() => dispatch('increment')}>Increment</button>
             <button onClick={() => dispatch('decrement')}>Decrement</button>
             <button onClick={() => dispatch('reset')}>Reset</button>
-
         </div>
     )
 }
-
 export default CounterReducer;

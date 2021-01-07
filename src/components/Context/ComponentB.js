@@ -6,5 +6,4 @@ const ComponentB = () => {
        <ComponentC/>
     )
 }
-
 export default ComponentB

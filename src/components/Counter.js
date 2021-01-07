@@ -12,10 +12,8 @@ const Counter = () => {
         <div style={{border:'1px solid black',width:'200px',height:'150px'}}>
             <h1>{count}</h1>
             <button onClick={handleIncrement}>Increment</button>
-            <button onClick={handleDecrement}>Decrement</button>
-            
+            <button onClick={handleDecrement}>Decrement</button>  
         </div>
     )
 }
-
 export default Counter
