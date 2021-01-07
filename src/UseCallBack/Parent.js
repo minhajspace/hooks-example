@@ -15,7 +15,6 @@ const ParentCompoent = () => {
             setNumberTwo(numberTwo - 1)
    },[numberTwo])
    
-    
     return (
         <div style={{ height: '300px', width: '600px', border: '1px solid red', background: '#e1f5fe', margin: '20px' }}>
             <Title/>

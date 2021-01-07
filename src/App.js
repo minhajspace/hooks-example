@@ -7,7 +7,6 @@ import './App.css';
 import ParentCompoent from './UseCallBack/Parent'
 import PersonAge from './components/UseMemo/PersonAge'
 
-
 function App() {
   return (
     <div className="App">

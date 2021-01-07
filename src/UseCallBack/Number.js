@@ -8,5 +8,4 @@ const Number = (props) => {
         </div>
     )
 }
-
 export default React.memo(Number)
