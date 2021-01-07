@@ -1,9 +1,9 @@
-import React,{useState,createContext} from 'react'
+import React,{createContext} from 'react'
 import ComponenetA from './ComponenetA'
 export const NameContext = createContext()
 
 const AppComponent = () => {
-    // const [name,setName]=useState("Minhaj ahmad khan")
+   
     
     return (
         <div>
